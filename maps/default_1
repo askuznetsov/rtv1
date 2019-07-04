@@ -1,0 +1,20 @@
+camera:
+	dir: (0, 0, 1)
+	cen: (0, 0, -600)
+
+light:
+	point
+	cen: (400, 400, -600)
+	col: 0xFFFFFF
+	int: 0.3
+
+light:
+	direct
+	dir: (0, -0.3, 1)
+	col: 0xFFFFFF
+	int: 0.2
+
+sphere:
+	cen: (0, 0, 0)
+	rad: 300
+	col: 0xFF00
