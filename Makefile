@@ -13,8 +13,8 @@
 .PHONY: all clean fclean re
 
 CC			:=	gcc
-CFLAGS		:=	-O3 -Wall -Wextra -Werror
-GFX			:=	-lmlx -framework OpenGL -framework AppKit
+CFLAGS		:=	-O3 -Wall -Wextra
+GFX			:=	-L ./minilibx_macos/ -lmlx -framework OpenGL -framework AppKit
 LIBFT		:=	libft/
 NAME		:=	RTv1
 SRC_PATH	:=	src/

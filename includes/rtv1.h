@@ -12,7 +12,7 @@
 
 #ifndef RTV1_H
 # define RTV1_H
-# include <mlx.h>
+# include "../minilibx_macos/mlx.h"
 # include <fcntl.h>
 # include <stdlib.h>
 # include <math.h>
